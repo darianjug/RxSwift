@@ -7,7 +7,7 @@
 //
 
 /// Base class for all disposables.
-public class DisposeBase {
+open class DisposeBase {
     init() {
 #if TRACE_RESOURCES
     let _ = Resources.incrementTotal()
